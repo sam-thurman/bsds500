@@ -6,7 +6,7 @@ import boto3
 from botocore.handlers import disable_signing
 
 from scipy.io import loadmat
-from scipy.misc import imread
+from imageio import imread
 
 import numpy as np
 from skimage.transform import resize
